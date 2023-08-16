@@ -8,7 +8,7 @@ A VPC is an isolated portion of the AWS cloud populated by AWS objects such as i
 ![Alt text](image.png)
 
 As soon as the VPC is created, it is assigned with vpc-id and there is a route table created that serves as the main route table as highlited below;
-![Alt text](image-2.png)
+!![Alt text](image-4.png)
 
 We have now a VPC and route table, but at the moment we can not put anything inside it now. We can only put something there until we have created subnets and configured it.
 
@@ -19,3 +19,9 @@ Subnets are like smaller segments within a VPC that help you organize and manage
 Remember to put the diagram here:
 
 Go to VPC > Subnet > Create Subnet > and select the VPC that you have created previously -the "First-VPC" as tagged in my project.
+![Alt text](image-5.png)
+
+Enter the subnet settings detail. Do not click Create Subnet button yet, click the add new subnet button to add the remaining subnets then after completing all the required subnets, click create subnets. Remeber to choose availability zone otherwise it will randomly chosse it for you.
+
+![Alt text](image-6.png)
+
