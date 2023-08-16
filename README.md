@@ -25,3 +25,35 @@ Enter the subnet settings detail. Do not click Create Subnet button yet, click t
 
 ![Alt text](image-6.png)
 
+NB: Use public subnet for resources that need internet access and private subnet for resources that you want to keep private.
+
+                 INTERNET GATEWAY AND ROUTING TABLE
+Go to VPC > Internet gateway and click Create Internet Gateway
+
+![Alt text](image-7.png)
+
+Then Attach as highklited above;
+![Alt text](image-8.png)
+
+                      CREATING AND CONFIGURING ROUTING TABLES
+Now that we have our Internet Gateway attached to the VPC, it is time to give directions to our resources. 
+This is done through a Routing Table.
+
+Public Subnet TRoute Table;
+Go to VPC, Click Route Table > Create route table
+![Alt text](image-9.png)
+Then immediately created, edith the route table, add a default route to the internet gateway.
+![Alt text](image-10.png)
+
+Then go to subnet association tab and Edit subnet association, select the public subnets and click 
+save association:
+![Alt text](image-11.png)
+
+CREATE PRIVATE SUBNET ROUTE TABLES;
+gO TO ROUTE TABLE AND CLICK ON THE WRITE TABLE:
+![Alt text](image-12.png)
+
+
+               NAT GATEWAY AND PRIVATE SUBNETS
+
+
