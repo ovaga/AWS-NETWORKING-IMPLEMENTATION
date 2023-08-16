@@ -4,3 +4,6 @@ We will choose VPC only for this project and later choose VPC and more in anothe
 We choose "first-VPC" as the tag name and "10.0.0.0/16" as the CIDR for this project.
 
 CREATE VPC;
+A VPC is an isolated portion of the AWS cloud populated by AWS objects such as instances.
+![Alt text](image.png)
+![Alt text](image-1.png)
