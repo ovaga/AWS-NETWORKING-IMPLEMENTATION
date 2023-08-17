@@ -54,6 +54,21 @@ gO TO ROUTE TABLE AND CLICK ON THE WRITE TABLE:
 ![Alt text](image-12.png)
 
 
-               NAT GATEWAY AND PRIVATE SUBNETS
+                         NAT GATEWAY 
+A NAT Gateway  acts like a secure door that only opens one way. It allows your resources inside
+the private subnet to access the internet for things like update and downloads, but it does not 
+allow anything from the internet to enter your private subnet.
+
+NAT allows instances in the private subntes to connect to outside services like Databases but restricts external services to connecting to these instances.
+
+Go to VPC > and Click "Create NAT Gateway"
+![Alt text](image-13.png)
+
+Create the NAT GATEWAY and name it "First-NAT" under one of the private subnets which I choose the subnte-private-1a as the subnet.
+![Alt text](image-14.png)
+
+We need to allocate Elastic IP because it is required for the creation of NAT Gateway.
+![Alt text](image-15.png)
+
 
 
